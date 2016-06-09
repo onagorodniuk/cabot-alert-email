@@ -6,7 +6,7 @@ This is an alert plugin for the cabot service monitoring tool. It allows you to 
 ## Installation
 cabot_alert_email should come installed with cabot as default however if you need to install it manually, append
 
-cabot_alert_email
+cabot_alert_email==1.3.1
 
 to the variable
 
