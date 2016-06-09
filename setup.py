@@ -8,6 +8,6 @@ setup(name='cabot-alert-email',
       author='Arachnys',
       author_email='info@arachnys.org',
       url='http://cabotapp.com',
-      packages=[
-            'cabot-alert-email',
-     ])
+      packages=find_packages(),
+      download_url= 'https://github.com/onagorodniuk/cabot-alert-email/tarball/1.3.1',
+     )

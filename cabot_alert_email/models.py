@@ -21,11 +21,9 @@ Passing checks:{% for check in service.all_passing_checks %}
 {% endif %}
 """
 
-
-
 class EmailAlert(AlertPlugin):
     name = "Email"
-    author = "Jonathan Balls"
+    author = "Oleksandr Nagorodniuk"
 
     def send_alert(self, service, users, duty_officers):
         emails = [u.email for u in users if u.email]
